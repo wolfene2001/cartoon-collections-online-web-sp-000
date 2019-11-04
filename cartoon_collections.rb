@@ -7,16 +7,19 @@ def roll_call_dwarves(names)
   end
 
 def summon_captain_planet(array)
-  words = []
-  array.length = 3
-  words.map! {|word|capitalize}
-  collect {w|w + "!"}
-  end
+  array.map! {|word|word.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  i = 0
+  i < word.length
+  i++
+  if word[i].length > 4
+    return true
+  end
+  false
 end
+
 
 def find_the_cheese# code an argument here
   # the array below is here to help
