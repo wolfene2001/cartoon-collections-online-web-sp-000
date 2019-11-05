@@ -19,7 +19,9 @@ else
   end
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  result = cheese_types.find {|item|item.include?(cheese)}
+  print result
 end
