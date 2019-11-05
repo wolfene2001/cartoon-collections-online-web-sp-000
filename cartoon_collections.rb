@@ -22,7 +22,7 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  result = cheese_types.find {|item|item.include?(0)}
+  result = cheese_types.find {|item|item.include?(string)}
   binding.pry
   print result
 end
