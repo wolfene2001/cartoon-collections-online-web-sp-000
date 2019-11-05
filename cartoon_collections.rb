@@ -25,3 +25,4 @@ def find_the_cheese(array)
   result = cheese_types.find {|item|item.include?(0)}
   print result
 end
+end
