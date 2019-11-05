@@ -1,4 +1,4 @@
-require "pry"
+
 def roll_call_dwarves(names)
   dwarves = ["Dopey", "Grumpy", "Bashful"]
   dwarves.each_with_index do |name, index|
