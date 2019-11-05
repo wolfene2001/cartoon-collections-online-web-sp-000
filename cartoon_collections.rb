@@ -1,4 +1,3 @@
-
 def roll_call_dwarves(names)
   dwarves = ["Dopey", "Grumpy", "Bashful"]
   dwarves.each_with_index do |name, index|
@@ -23,6 +22,4 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   result = cheese_types.find {|cheese|array.include?(cheese)}
-
-
 end
