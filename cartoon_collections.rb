@@ -26,4 +26,4 @@ def find_the_cheese(array)
   print result
 end
 
-end
+
